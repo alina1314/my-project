@@ -4,8 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import vueScrollBehavior from 'vue-scroll-behavior'
+import 'normalize.css'
 Vue.config.productionTip = false
 
+Vue.use(ElementUI)
+// Vue.use(vueScrollBehavior)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
