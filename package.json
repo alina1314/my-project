@@ -14,6 +14,7 @@
     "element-ui": "^2.4.6",
     "normalize.css": "^8.0.0",
     "vue": "^2.5.2",
+    "vue-infinite-loading": "^2.3.3",
     "vue-router": "^3.0.1",
     "vue-scroll-behavior": "^0.2.0"
   },
